@@ -9,7 +9,7 @@ System.out.print("Enter the year : ");
 
 int year = Sc.nextInt();
 
-if(year % 4 == 0 && year % 400 == 0 || year%100 != 0)
+if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
 System.out.print("Leap Year");
 else
 System.out.print("Normalyear");
